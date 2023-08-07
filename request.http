@@ -1,0 +1,13 @@
+GET http://localhost:8000/api/v1/tasks
+
+###
+
+POST http://localhost:8000/api/v1/tasks
+Content-Type: application/json
+
+{
+    "name": "Kosomk"
+}
+
+###
+DELETE http://localhost:8000/api/v1/tasks/64d058de1ab7554bbdcfdaaf
