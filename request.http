@@ -1,8 +1,8 @@
-GET http://localhost:8000/api/v1/tasks
+GET https://task-manager-api-w9ye.onrender.com/api/v1/tasks
 
 ###
 
-POST http://localhost:8000/api/v1/tasks
+POST https://task-manager-api-w9ye.onrender.com/api/v1/tasks
 Content-Type: application/json
 
 {
@@ -10,4 +10,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:8000/api/v1/tasks/64d058de1ab7554bbdcfdaaf
+DELETE https://task-manager-api-w9ye.onrender.com/api/v1/tasks/64d063154b28eef246378b31
