@@ -5,7 +5,7 @@ const getAllTasks = async (req, res) => {
     const tasks = await Task.find({}).sort("name");
     res.status(200).json({ tasks });
   } catch (error) {
-    res.status(500).json({ msg: error });
+    res.status(500).json({ error });
   }
 };
 
